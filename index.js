@@ -23,7 +23,7 @@ app.use(
     ].join(" ");
   })
 );
-
+app.use(express.static("build"));
 let phoneBook = [
   {
     id: 1,
